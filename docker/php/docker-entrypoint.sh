@@ -23,6 +23,8 @@ if [ "$1" = 'php-fpm' ] || [ "$1" = 'php' ] || [ "$1" = 'bin/console' ]; then
 		cd tmp
 		composer require "php:>=$PHP_VERSION"
 		composer config --json extra.symfony.docker 'true'
+		# BVB Media
+		composer require symfony/webpack-encore-bundle
 		cp -Rp . ..
 		cd -
 

@@ -1,8 +1,8 @@
-Symfony Docker
-==========================
+Symfony Tailwind Docker
+=============================
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.
 
-![CI](https://github.com/bvbmedia/symfony-docker/workflows/CI/badge.svg)
+![CI](https://github.com/bvbmedia/symfony-tailwind-docker/workflows/CI/badge.svg)
 
 
 ## Getting Started
@@ -36,5 +36,8 @@ A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony
 7. [Troubleshooting](docs/troubleshooting.md)
 
 ## Credits
+
+https://betterprogramming.pub/tailwindcss-and-symfonys-webpack-encore-7bfc8c18665b
+https://levelup.gitconnected.com/setup-tailwind-css-with-webpack-3458be3eb547
 
 Created by [Kévin Dunglas](https://dunglas.fr), co-maintained by [Maxime Helias](https://twitter.com/maxhelias) and sponsored by [Les-Tilleuls.coop](https://les-tilleuls.coop).
