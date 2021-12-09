@@ -60,7 +60,7 @@ services:
     depends_on:
       - php
     command: >
-      sh -c "yarn add tailwindcss postcss-loader postcss-import autoprefixer --dev &&
+      sh -c "yarn add tailwindcss postcss-loader postcss-import autoprefixer postcss-import --dev &&
              yarn encore dev --watch"
     working_dir: /usr/src/app
     volumes:
