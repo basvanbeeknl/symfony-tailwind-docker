@@ -77,7 +77,7 @@ Encore
     .enablePostCssLoader((options) => {
         options.postcssOptions = {
             // the directory where the postcss.config.js file is stored
-            config: path.resolve('postcss.config.js'),
+            config: path.resolve(__dirname, 'custom.config.js'),
         };
     })
 ;
